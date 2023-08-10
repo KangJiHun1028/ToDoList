@@ -17,7 +17,7 @@ class TableViewController:UIViewController{
     @IBAction func clickButton(_ sender: Any) {
         let alert = UIAlertController(title: "입력하세요", message: "추가할 내용을 적어주세요", preferredStyle: .alert)
         
-        let input = UIAlertAction(title: "입력", style: .default) { (ok) in
+        let input = UIAlertAction(title: "입력", style: .default) { (input) in
             print("ok")
             
             guard let name = alert.textFields?[0].text else {return}
