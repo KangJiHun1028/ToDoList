@@ -15,6 +15,7 @@
 		E75B528B2A847BE70018BB49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75B52892A847BE70018BB49 /* LaunchScreen.storyboard */; };
 		E75B52932A847D6A0018BB49 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75B52922A847D6A0018BB49 /* TableViewController.swift */; };
 		E75B52952A8480A70018BB49 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75B52942A8480A70018BB49 /* CellView.swift */; };
+		E75B52972A849AE10018BB49 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75B52962A849AE10018BB49 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E75B528C2A847BE70018BB49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E75B52922A847D6A0018BB49 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		E75B52942A8480A70018BB49 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		E75B52962A849AE10018BB49 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Data.swift; path = ../../../Test/Test/Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				E75B52822A847BE60018BB49 /* ViewController.swift */,
 				E75B52922A847D6A0018BB49 /* TableViewController.swift */,
 				E75B52942A8480A70018BB49 /* CellView.swift */,
+				E75B52962A849AE10018BB49 /* Data.swift */,
 				E75B52842A847BE60018BB49 /* Main.storyboard */,
 				E75B52872A847BE70018BB49 /* Assets.xcassets */,
 				E75B52892A847BE70018BB49 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E75B52832A847BE60018BB49 /* ViewController.swift in Sources */,
+				E75B52972A849AE10018BB49 /* Data.swift in Sources */,
 				E75B52952A8480A70018BB49 /* CellView.swift in Sources */,
 				E75B527F2A847BE60018BB49 /* AppDelegate.swift in Sources */,
 				E75B52812A847BE60018BB49 /* SceneDelegate.swift in Sources */,
