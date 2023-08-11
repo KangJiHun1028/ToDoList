@@ -33,9 +33,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9RJ-v9-YQC">
-                                <rect key="frame" x="141.33333333333334" y="389" width="110.66666666666666" height="74"/>
+                                <rect key="frame" x="50" y="389" width="293" height="74"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="버튼">
+                                <buttonConfiguration key="configuration" style="plain" title="목록 추가">
                                     <fontDescription key="titleFontDescription" type="italicSystem" pointSize="50"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -48,6 +48,8 @@
                         <constraints>
                             <constraint firstItem="9RJ-v9-YQC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Bcr-vG-mpI"/>
                             <constraint firstItem="9RJ-v9-YQC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="N79-oK-TPp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9RJ-v9-YQC" secondAttribute="trailing" constant="50" id="RRR-G3-sXC"/>
+                            <constraint firstItem="9RJ-v9-YQC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="SRc-oD-U6l"/>
                             <constraint firstItem="9RJ-v9-YQC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UeV-PQ-YO2"/>
                             <constraint firstItem="9RJ-v9-YQC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="u4N-z9-mNT"/>
                         </constraints>
